@@ -1,6 +1,5 @@
 <?php
-//Task: Create an array of 5 friends and the money they owe you.
-//  Loop through them, add up the total, and highlight anyone who owes more than 100 DH.
+
 $user =[
     ["nom" => "hassan",
     "money"=> 80
@@ -33,7 +32,7 @@ foreach($user as $use){
     }
    
 }
- echo "la somme d argents est : " . $somme . " DH" . "<br>";
+ echo "The total amount owed is : " . $somme . " DH" . "<br>";
  
- echo "les gents ayant le montant plus de 100 DH  sont : " . implode(" , ",$gent);
+ echo "The people who owe more than 100 DH are : " . implode(" , ",$gent);
 ?>
